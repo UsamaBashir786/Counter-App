@@ -1,11 +1,12 @@
 # 🔢 Counter App
 
-A clean and responsive **Counter Application** built with **React** and **Vite**. This app allows users to increment, decrement, and reset a counter — demonstrating core React concepts like `useState`, component structure, and event handling.
+A clean and responsive **Counter Application** built with **React** and **Vite**, styled with **Tailwind CSS** and using **Lucide React** icons. This app allows users to increment, decrement, and reset a counter — demonstrating core React concepts like `useState`, component structure, and event handling.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide_Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white)
 
 ---
 
@@ -15,7 +16,8 @@ A clean and responsive **Counter Application** built with **React** and **Vite**
 - ➖ **Decrement** — Decrease the counter by 1
 - 🔄 **Reset** — Reset the counter back to 0
 - ⚡ Fast and responsive UI powered by Vite's HMR (Hot Module Replacement)
-- 🎨 Clean and minimal design
+- 🎨 Clean and minimal design using **Tailwind CSS**
+- 🔷 Beautiful icons powered by **Lucide React**
 
 ---
 
@@ -26,7 +28,8 @@ A clean and responsive **Counter Application** built with **React** and **Vite**
 | React 18 | UI Library |
 | Vite | Build Tool & Dev Server |
 | JavaScript (ES6+) | App Logic |
-| CSS3 | Styling |
+| Tailwind CSS | Utility-First Styling |
+| Lucide React | Icon Library |
 | ESLint | Code Linting |
 
 ---
@@ -42,7 +45,7 @@ Counter-App/
 │   ├── App.jsx          # Main App Component
 │   ├── App.css          # App Styles
 │   ├── main.jsx         # Entry Point
-│   └── index.css        # Global Styles
+│   └── index.css        # Global Styles (Tailwind directives)
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -110,6 +113,8 @@ http://localhost:5173
 
 > A simple counter interface with **Increment**, **Decrement**, and **Reset** buttons, displaying the current count value in real time.
 
+![App Screenshot](public/appSS.png)
+
 ---
 
 ## 🧠 Concepts Practiced
@@ -119,6 +124,8 @@ http://localhost:5173
 - Event handling in React
 - Props and component reusability
 - Vite project setup and configuration
+- Utility-first styling with **Tailwind CSS**
+- Icon integration using **Lucide React**
 
 ---
 
