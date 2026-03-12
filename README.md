@@ -84,13 +84,25 @@ cd Counter-App
 npm install
 ```
 
-4. **Start the development server**
+4. **Install Tailwind CSS with Vite plugin**
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+5. **Install Lucide React icons**
+
+```bash
+npm install lucide-react
+```
+
+6. **Start the development server**
 
 ```bash
 npm run dev
 ```
 
-5. **Open your browser** and visit:
+7. **Open your browser** and visit:
 
 ```
 http://localhost:5173
